@@ -88,3 +88,13 @@ class Sample(object):
     self.o = o
     self.t = t
     self.r = r
+
+class weightedSample(object):
+  def __init__(self, i, c, w, o, t, r, weight):
+    self.i = i
+    self.c = c
+    self.w = w
+    self.o = o
+    self.t = t
+    self.r = r
+    self.weight = weight
